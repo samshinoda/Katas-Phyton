@@ -7,9 +7,9 @@
 Este proyecto consiste en una recopilación exhaustiva de **41 ejercicios de programación en Python**, desarrollados para demostrar un entendimiento profundo del lenguaje, desde la manipulación de tipos básicos hasta la Programación Orientada a Objetos (POO).
 
 ## 🗂️ 2. Estructura del Proyecto
-.
-    ├── KatasPhyton.py           # Archivo con los 41 ejercicios resueltos
+Todo el proyecto está guardado en un solo archivo para que sea muy fácil de corregir y probar.
     
+    ├── KatasPhyton.py           # Archivo con los 41 ejercicios resueltos
     └── README.md         # Documentación del proyecto
 
 ## 🛠️ 3. Instalación y Requisitos
