@@ -9,6 +9,7 @@ Este proyecto consiste en una recopilación exhaustiva de **41 ejercicios de pro
 ## 🗂️ 2. Estructura del Proyecto
 .
     ├── KatasPhyton.py           # Archivo con los 41 ejercicios resueltos
+    
     └── README.md         # Documentación del proyecto
 
 ## 🛠️ 3. Instalación y Requisitos
