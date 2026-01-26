@@ -74,7 +74,7 @@ def factorial(n):
     if n <= 1:
         return 1
     else:
-        return n + factorial(n - 1)
+        return n * factorial(n - 1)
     
 numero = 5
 resultado = factorial(numero)
@@ -268,8 +268,6 @@ print(calcular_cubo(3))
 
 #22. Dada una lista numérica, obtén el producto total de los valores de dicha lista. Usa la función reduce().
 
-from functools import reduce
-
 def producto_total(lista):
     resultado = reduce(lambda x, y: x * y, lista)
     return resultado
@@ -279,8 +277,6 @@ print(producto_total(numeros))
 
 #23. Concatena una lista de palabras. Usa la función reduce() .
 
-from functools import reduce
-
 def concatenar_palabras(lista):
     resultado = reduce(lambda x, y: x + y, lista)
     return resultado
@@ -289,8 +285,6 @@ palabras = ["Hola", "que", "tal"]
 print(concatenar_palabras(palabras))
 
 #24. Calcula la diferencia total en los valores de una lista. Usa la función reduce() .
-
-from functools import reduce
 
 def diferencia_total(lista):
     resultado = reduce(lambda x, y: x - y, lista)
@@ -317,7 +311,7 @@ print(calcular_resto(10, 3))
 
 #27. Crea una función que calcule el promedio de una lista de números.
 
-def calcular_promedio(lista):
+def calcular_promedio_simple(lista):
     return sum(lista) / len(lista)
 
 numeros = [10, 20, 30, 40, 50]
@@ -375,7 +369,7 @@ def buscar_nombre():
     if nombre_buscar in lista_nombres:
         print(f"El nombre '{nombre_buscar}' fue encontrado en la lista.")
     else:
-        raise Exception(f"Error: El nombre '{nombre_buscar}' no se encuentra en la lista.")
+        raise ValueError(f"El nombre '{nombre_buscar}' no se encuentra en la lista.")
 
 buscar_nombre()
 
